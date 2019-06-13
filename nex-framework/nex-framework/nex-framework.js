@@ -19,6 +19,14 @@ class Nex {
 
         document.head.appendChild(script);
     }
+
+    importStyle(path) {
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = path;
+
+        document.head.appendChild(link);
+    }
 }
 
 class Component {
@@ -28,9 +36,12 @@ class Component {
 
     createElement(options) {
         const element = document.createElement(options.tagName);
+        
         element.id = options.id;
+        element.className = options.className;
 
         element.textContent = options.content;
+
 
         this.appendElement(element);
     }

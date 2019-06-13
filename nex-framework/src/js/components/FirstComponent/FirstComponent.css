@@ -1,0 +1,12 @@
+#first-component{
+    /* color: #eee; */
+    background-color: #212121;
+}
+
+.red {
+    color: red
+}
+
+.big {
+    font-size: 80px;
+}
