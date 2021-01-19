@@ -1,4 +1,3 @@
-// import { OPERATIONS } from "./diff";
 import mount from "./mount";
 
 function setProp(target, name, value) {
