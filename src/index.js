@@ -11,7 +11,7 @@ const HelloWorld = () => {
 };
 
 const App = () => (
-  <div>
+  <div className="container">
     <HelloWorld />
   </div>
 );
