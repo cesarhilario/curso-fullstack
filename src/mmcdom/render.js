@@ -9,8 +9,6 @@ function render(element, container) {
   }
 
   container.appendChild(mount(element));
-
-  const patches = diff(element);
 }
 
 export default render;

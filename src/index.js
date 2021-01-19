@@ -1,7 +1,13 @@
 import mmcdom from "./mmcdom";
 
 const HelloWorld = () => {
-  return <h1>Hello World</h1>;
+  const value = "Erick";
+
+  return (
+    <div>
+      <h1>{value}</h1>
+    </div>
+  );
 };
 
 const App = () => (
