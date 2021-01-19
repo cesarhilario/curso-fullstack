@@ -16,4 +16,4 @@ const App = () => (
   </div>
 );
 
-mmcdom.render(<App />, document.getElementById("app"));
+mmcdom.render(<App />, <HelloWorld />, document.getElementById("app"));

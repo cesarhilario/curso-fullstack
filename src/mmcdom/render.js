@@ -1,7 +1,8 @@
 import mount from "./mount";
-import patch from './patch';
+import diff from "./diff";
+import patch from "./patch";
 
-function render(element, container, nextElement) {
+function render(element, nextElement, container) {
   if (!container) {
     throw new Error(
       "O container não existe. Você precisa passar um container para renderizar seu app."
