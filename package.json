@@ -1,7 +1,7 @@
 {
   "name": "mmc-framework",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "private": true,
   "scripts": {
     "dev": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
