@@ -1,5 +1,4 @@
 import mount from "./mount";
-import diff from "./diff";
 
 function render(element, container) {
   if (!container) {
