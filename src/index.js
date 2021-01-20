@@ -1,19 +1,4 @@
 import mmcdom from "./mmcdom";
-
-const HelloWorld = () => {
-  const value = "Erick";
-
-  return (
-    <div>
-      <h1>{value}</h1>
-    </div>
-  );
-};
-
-const App = () => (
-  <div className="container">
-    <HelloWorld />
-  </div>
-);
+import App from "./App";
 
 mmcdom.render(<App />, document.getElementById("app"));
