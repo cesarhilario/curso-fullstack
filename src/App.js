@@ -9,8 +9,13 @@ export default function App() {
     console.log('clicado');
   }
 
+  const handleMouseLeave = (e) => {
+    console.log(e);
+    console.log('mouse leave')
+  }
+
   return (
-    <div onClick={handleClick}>
+    <div onclick={handleClick} mouseLeave={(e) => handleMouseLeave(e)}>
       <h1>{Hello}</h1>
     </div>
   );

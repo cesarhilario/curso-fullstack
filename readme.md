@@ -28,7 +28,7 @@ Uma framerwork baseada em react para fins de estudo e iniciativa de engajamento 
 - [X] Uso do JSX
 - [X] Aplicar estilos aos componentes
 - [X] Gerar build  
-- [ ] Aplicar tratamento de eventos
+- [X] Aplicar tratamento de eventos
 - [ ] Fazer gerenciamento de estado  
 - [ ] Transformar em um pacote npm
 - [ ] Fazer componentes core

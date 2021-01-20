@@ -17,8 +17,13 @@ function mount(vNode) {
     if (k === "children") {
       continue;
     }
+    if(typeof v !== 'function') {
+      el.setAttribute(replaceReservedKeys(k), v);
+    } else {
+      const event = k.replace('on', '').toLowerCase();
 
-    el.setAttribute(replaceReservedKeys(k), v);
+      el.addEventListener(event, v);
+    }
   }
 
   for (const child of vNode.props.children) {
