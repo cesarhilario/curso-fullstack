@@ -24,10 +24,7 @@ Uma framerwork baseada em react para fins de estudo e iniciativa de engajamento 
 ***
 ### Roadmap
 - [X] Dom Virtual
-- [X] Gerar componentes 
-- [X] Aplicar estilo css ao componente
-- [X] Gerar build 
-- [ ] Manipular eventos JavaScript
+- [X] Geração de build  
 - [ ] Fazer gerenciamento de estado  
 - [ ] Transformar em um pacote npm
 - [ ] Fazer componentes core
