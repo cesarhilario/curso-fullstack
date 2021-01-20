@@ -13,7 +13,7 @@ Uma framerwork baseada em react para fins de estudo e iniciativa de engajamento 
 ```
 
 ## **Estrutura de pastas**
-**public**: Diretório onde será inserida os arquivos estáticos
+**public**: Diretório onde serão inseridos os arquivos estáticos
 <br/>
 **src**: Diretório onde você deve inserir todo o código da sua aplicação, podendo conter subpastas.
 <br/>
