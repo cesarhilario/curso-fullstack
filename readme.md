@@ -29,7 +29,7 @@ Uma framerwork baseada em react para fins de estudo e iniciativa de engajamento 
 - [X] Aplicar estilos aos componentes
 - [X] Gerar build  
 - [X] Aplicar tratamento de eventos
-- [ ] Fazer gerenciamento de estado  
+- [ ] Fazer gerenciamento de estado 
 - [ ] Transformar em um pacote npm
 - [ ] Fazer componentes core
 - [ ] Fazer CLI 
