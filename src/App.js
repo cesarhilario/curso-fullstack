@@ -8,15 +8,21 @@ export default function App() {
 
   let greeting = "Hello World";
 
+  function setStorage() {
+    storage.setStorageValue('greeting', 'Ola')
+  }
+
   function fetchStorage() {
     let greetingFetched = storage.getStorageValue('greeting')
     console.log(greetingFetched);
   }
 
   function handleClick() {
-    fetchStorage()
+    fetchStorage();
   }
 
+  setStorage();
+  
   return (
     <div>
       <h1>{greeting}</h1>
