@@ -1,4 +1,6 @@
 import mount from "./mount";
+import diff from "./diff";
+import patch from "./patch";
 
 function render(element, container) {
   if (!container) {
@@ -8,6 +10,9 @@ function render(element, container) {
   }
 
   container.appendChild(mount(element));
+
+  const patches = diff(element, element);
+  patch(container, patches);
 }
 
 export default render;
