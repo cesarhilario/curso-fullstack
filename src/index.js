@@ -1,7 +1,9 @@
 import mmcdom from "./mmcdom";
 
+import './style.css';
+
 const HelloWorld = () => {
-  const value = "Erick";
+  const value = "Hello World";
 
   return (
     <div>

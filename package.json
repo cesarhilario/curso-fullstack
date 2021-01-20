@@ -12,9 +12,12 @@
     "@babel/preset-env": "^7.12.11",
     "babel-loader": "^8.2.2",
     "babel-plugin-transform-react-jsx": "^6.24.1",
+    "css-loader": "^5.0.1",
+    "style-loader": "^2.0.0",
     "webpack": "^4.42.1",
     "webpack-cli": "3.3.11",
     "webpack-dev-server": "3.10.3"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
