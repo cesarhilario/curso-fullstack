@@ -4,8 +4,6 @@ import storage from './storage';
 import "./App.css";
 
 export default function App() {
-  console.log('ENTROU')
-
   let greeting = "Hello World";
 
   function setStorage() {
@@ -27,7 +25,7 @@ export default function App() {
     <div>
       <h1>{greeting}</h1>
 
-      <button onclick={handleClick}>Pegar conteudo do storage</button> { /* Ver no console */ }
+      <button text={greeting} onclick={handleClick}>Pegar conteudo do storage</button> { /* Ver no console */ }
     </div>
   );
 }
