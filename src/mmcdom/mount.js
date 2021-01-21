@@ -8,13 +8,11 @@ function replaceReservedKeys(word) {
 }
 
 function mount(vNode) {
-  console.log('vNode',vNode);
   if (typeof vNode === "string" || typeof input === "number") {
     return document.createTextNode(vNode);
   }
 
   const el = document.createElement(vNode.type);
-
 
   for (const [k, v] of Object.entries(vNode.props)) {
     if (k === "children") {
